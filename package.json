@@ -1,0 +1,25 @@
+{
+    "name": "node-console-logger",
+    "version": "0.0.2",
+    "description": "module for log consoled data in the logs files with time stamp , event type. every event will be logged with unique ref Id.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "keywords": [
+        "node",
+        "logger",
+        "node logger",
+        "node console logger",
+        "console logger"
+    ],
+    "author": "akkireddyrajesh",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akkireddyrajesh/node-console-logger"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "winston": "^3.2.1"
+    }
+}
