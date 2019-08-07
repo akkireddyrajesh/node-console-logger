@@ -1,6 +1,6 @@
 {
     "name": "node-console-logger",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "module for log consoled data in the logs files with time stamp , event type. every event will be logged with unique ref Id.",
     "main": "index.js",
     "scripts": {
