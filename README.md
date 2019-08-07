@@ -13,9 +13,9 @@ var logger = require('node-console-logger');
 logger.info("title","description"); //for log the event type info
 logger.err("error name ","error description ");//for log the event type error
 
-Note : we can pass sencond argument as object also 
+Note : we can pass second argument as object also 
 
-logger.err("error name ",{"type":"error","message"::"invalid credentials"});//for log the event type error
+logger.err("error name ",{"type":"error","message":"invalid credentials"});//for log the event type error
 
 ```    
 
