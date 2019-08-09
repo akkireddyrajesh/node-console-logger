@@ -58,6 +58,6 @@ const logger = winston.createLogger({
 exports.info = function(msg, msgData) {
     logger.info(msg, { msgData: msgData });
 }
-exports.err = function(msg, msgData) {
+exports.error = function(msg, msgData) {
     logger.error(msg, { Description: msgData });
 }
