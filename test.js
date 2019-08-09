@@ -1,4 +1,4 @@
 const loggerr = require('.');
 
-loggerr.info("info log", { "tct": "vdgufpivo" });
-// loggerr.err("error log", { "tct": "vdgufpivo" });
+loggerr.info("info log", "msg desc");
+loggerr.err("error log", { "tct": "vdgufpivo" });
